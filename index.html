@@ -4,35 +4,20 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>A-level CompSci revision</title>
+        <link rel="stylesheet" href="styles.css">
         <base target="_blank">
-        <style>
-                .flex-list {
-                        height: 80px;
-                        display: flex;
-                        flex-direction: column;
-                        flex-wrap: wrap;
-                }
 
-                body {
-                        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-                        background-color: gold;
-                        color: darkslategray;
-                        margin: 5%;
-
-                }
-
-                .centred {
-                        text-align: center;
-                }
-        </style>
 </head>
 
 <body>
-        <h1 class="centred">Dave's revision world</h1>
-        <p>Week-by-week, I'll build up this page with more revision materials for you to try. Agile development in action! 😎.</p>
-        <h1>Parsons problems</h1>
+        <div>
+                <h1 class="centred">Dave's revision world<span id="underscore"></span></h1>  <!-- You know i had to make some swagger with it dave -->
+        </div>
+        <script src="script.js"></script>
+        <p Class="centred">Week-by-week, I'll build up this page with more revision materials for you to try. Agile development in action! .</p>
+        <h2>Parsons problems</h2> <!-- changed subheadings to yknow the subheadings  -->
         <p><a href="https://ludlowcode.github.io/parsons-probs/">Rearrange the pseudocode</a> or code for the key algos that you need for your A-level CompSci. Then code them yourself, or apply them on a dummy set of data. <em>Great prep for module 2</em>.</p>
-        <h1>Knowledge terminology quizzes</h1>
+        <h2>Knowledge terminology quizzes</h2>
         <p><em>Learn all the key terms.</em> These self mark (imperfectly), but you must start each answer with a capital letter. Revisit the quizzes after a bit of a gap over time until you are scoring highly in the run-up to exams.</p>
         <ol class="flex-list">
                 <li><a href="https://forms.office.com/Pages/ResponsePage.aspx?id=hQ_x47yacEihw1p-COG7yyS6dUfdsgtNgu7Io5Bk0slUMkg3SzVQSzY1M1ZSMTZFTllGQUxDRFRLUy4u" target="_blank">Quiz 1</a></li>
@@ -59,13 +44,15 @@
 
                 <li><a href="https://forms.office.com/Pages/ResponsePage.aspx?id=hQ_x47yacEihw1p-COG7yyS6dUfdsgtNgu7Io5Bk0slUNjRLU0tYOTUxTDFMWEJLN0FGTlpTNUJCWi4u" target="_blank">Quiz 12</a></li>
         </ol>
-        <h1>Other quizzes</h1>
-        <a href="https://forms.office.com/Pages/ResponsePage.aspx?id=hQ_x47yacEihw1p-COG7yyS6dUfdsgtNgu7Io5Bk0slUNTVURFk0M0U4MzJSMDBONzA2TU5ZNDJNTi4u" target="_blank">Floating point questions</a>
-        <a href="https://forms.office.com/Pages/ResponsePage.aspx?id=hQ_x47yacEihw1p-COG7yyS6dUfdsgtNgu7Io5Bk0slURUVBUVJJSldCOUtWSUxBMENKWEtVVzNMQS4u" target="_blank">Core components</a>
-        <a href="https://forms.office.com/Pages/ResponsePage.aspx?id=hQ_x47yacEihw1p-COG7yyS6dUfdsgtNgu7Io5Bk0slUQzlNVU9QNFM5SktPVlk0MjBFSEpGMTMzRC4u" target="_blank">Trees and graphs</a>
-        <a href="https://forms.office.com/Pages/ResponsePage.aspx?id=hQ_x47yacEihw1p-COG7yyS6dUfdsgtNgu7Io5Bk0slUQ0xYOTBBUFRET1IwWVFTTlM4RFowVUtRTC4u" target="_blank">Binary search tree traversals</a>
-        <a href="https://forms.office.com/Pages/ResponsePage.aspx?id=hQ_x47yacEihw1p-COG7yyS6dUfdsgtNgu7Io5Bk0slURFFVOTRFRFRIUUk4SkZNVVZXWkhTQUJaMy4u" target="_blank">Complexities</a>
-        <h1>Programming practice and similar</h1>
+        <h2>Other quizzes</h2>
+        <ul> <!-- stuck it into an actual list instead of anchors beacuse whyyyyyyy -->
+                <li><a href="https://forms.office.com/Pages/ResponsePage.aspx?id=hQ_x47yacEihw1p-COG7yyS6dUfdsgtNgu7Io5Bk0slUNTVURFk0M0U4MzJSMDBONzA2TU5ZNDJNTi4u" target="_blank">Floating point questions</a></li>
+                <li><a href="https://forms.office.com/Pages/ResponsePage.aspx?id=hQ_x47yacEihw1p-COG7yyS6dUfdsgtNgu7Io5Bk0slURUVBUVJJSldCOUtWSUxBMENKWEtVVzNMQS4u" target="_blank">Core components</a></li>
+                <li><a href="https://forms.office.com/Pages/ResponsePage.aspx?id=hQ_x47yacEihw1p-COG7yyS6dUfdsgtNgu7Io5Bk0slUQzlNVU9QNFM5SktPVlk0MjBFSEpGMTMzRC4u" target="_blank">Trees and graphs</a></li>
+                <li><a href="https://forms.office.com/Pages/ResponsePage.aspx?id=hQ_x47yacEihw1p-COG7yyS6dUfdsgtNgu7Io5Bk0slUQ0xYOTBBUFRET1IwWVFTTlM4RFowVUtRTC4u" target="_blank">Binary search tree traversals</a></li>
+                <li><a href="https://forms.office.com/Pages/ResponsePage.aspx?id=hQ_x47yacEihw1p-COG7yyS6dUfdsgtNgu7Io5Bk0slURFFVOTRFRFRIUUk4SkZNVVZXWkhTQUJaMy4u" target="_blank">Complexities</a></li>
+        </ul>
+        <h2>Programming practice and similar</h2>
         <ul>
                 <li><a href="https://python-practice.com/">Python-practice.com</a> is lovely and simple to get into. <em>Great practice for exam questions. Do this first.</em></li>
                 <li><a href="https://www.sql-practice.com/">SQL-practice.com</a> is another simple one to check your skills.</li>
@@ -73,7 +60,7 @@
                 <li><a href="https://leetcode.com/">Leetcode.com</a> is great to challenge yourself and to prepare for interviews etc. It forces you down the OOP route, which seems a bit weird for python sometimes. It also encourages codegolf and over-optimisation, leading to a lot of horrible answers!</li>
                 <li><a href="https://codewars.com">Codewars.com</a> is gimmicky in the extreme but challenging, addictive and with an active community. Takes a while to get into it.</li>
         </ul>
-        <h1>Other resources</h1>
+        <h2>Other resources</h2>
         <ul>
                 <li><a href="https://www.youtube.com/@ComputerScienceLessons">Great YouTube channel that goes into a little more depth than Craig and Dave. The subject knowledge is unparalleled.</a></li>
                 <li><a href="https://www.physicsandmathstutor.com/computer-science-revision/a-level-ocr/">revision materials</a></li>
@@ -81,9 +68,9 @@
                 <li><a href="https://www.youtube.com/@computerscience293/videos"> walkthroughs of past papers from 2018 to 2021.</a></li>
                 <li><a href="https://www.101computing.net/a-level-revision/#">precious questions! I really like this one as a warmup.</a></li>
                 <li><a href="https://app.senecalearning.com/classroom/course/0427a30a-fd38-4222-9775-2d193021a4a1">Seneca's course for A-level Computer Science is very good.</a></li>
-                <li><a href="https://https://adacomputerscience.org/">Loads of questions from Isaac and some that aren't (often very good). You don't need to be logged in. No adverts.</a></li>
-        </ul>
-        <h1>Pseudocode</h1>
+                <li><a href="https://adacomputerscience.org/topics?examBoard=all&stage=all">Loads of questions from Isaac and some that aren't (often very good). You don't need to be logged in. No adverts.</a></li>
+        </ul>   <!-- ^^^^^^^^^^^ fixed the broken link, not sure if this is the right thing tho, looks its soo :shrug:  -->
+        <h2>Pseudocode</h2>
         <ul>
                 <li><a href="https://www.examreferencelanguage.co.uk/?code=%5B%7B%22name%22%3A%22code%22%2C%22content%22%3A%22%22%7D%5D&a-level=">Clever pseudocode interpreter to practise with.</a></li>
                 <li><a href="assets/pseudocode-guide.pdf">The official OCR pseudocode guide.</a></li>
@@ -91,7 +78,6 @@
                 
         <!--<a href="https://forms.office.com/Pages/ResponsePage.aspx?id=hQ_x47yacEihw1p-COG7yyS6dUfdsgtNgu7Io5Bk0slURUVBUVJJSldCOUtWSUxBMENKWEtVVzNMQS4u" target="_blank">Core components</a>-->
         <footer style="bottom: auto;"><br><br> ...by LudlowCode. Share your favourite resources, report issues, or contribute to the project at at the <a href="https://github.com/LudlowCode/revision-materials/discussions">GitHub repo.</a> Please feel free to pay for this content <a href="https://www.justgiving.com/page/dave-edwards-1702151473425">here. </a> Maybe ask your parents to pay and then they will remember how hard you are working.</footer>
-
+                                                        <!-- AND MEEEEEEE NOW HAHAHAHAHA -->
 </body>
-
 </html>
