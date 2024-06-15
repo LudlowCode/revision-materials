@@ -1,0 +1,49 @@
+body {
+    background-color: #eeeeee;
+}
+
+h1 {        /* just the type of element is all of them */
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(0, 0, 0);
+}
+
+.container { /* . is by class*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+#underscore { /* # is by id*/
+    position: absolute;
+    margin-left: 3px;
+}
+
+h2{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+p{
+    font-family: Arial, Helvetica, sans-serif;
+    color: #333333;
+}
+
+.flex-list {
+        height: 80px;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+}
+
+.centred {
+        text-align: center;
+}
+
+
+
+/* color scheme I DID NOT CHOOSE THIS :SOB: i also didnt stick to it, dave wanted it tho dont yell at me
+    Violet          #52489C
+    Darker blue     #4062BB
+    Teal            #59C3C3
+    White           #EBEBEB
+    Red(ish)        #F45B69
+*/
