@@ -7,7 +7,7 @@ h1 {        /* just the type of element is all of them */
     color: rgb(0, 0, 0);
 }
 
-.container { /* . is by class*/
+.container { /* . is by class */
     display: flex;
     justify-content: center;
     align-items: center;
