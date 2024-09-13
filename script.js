@@ -3,7 +3,7 @@ document.addEventListener('DOMContentLoaded', () => {
     let showUnderscore = true;                                // however has to have contrainers used cuz i wanted it centered.
 
     setInterval(() => {
-        if (showUnderscore) {       //if its true(showing)
+        if (showUnderscore) {       //if it's true(showing)
             underscore.textContent = "_";//it shows
         } else {//if its not
             underscore.textContent = "";//it deletes it
