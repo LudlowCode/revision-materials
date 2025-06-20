@@ -1,5 +1,6 @@
 body {
-    background-color: #eeeeee;
+    background-color: #ffb6da;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 h1 {        /* just the type of element is all of them */
@@ -23,7 +24,7 @@ h2{
 }
 
 p{
-    font-family: Arial, Helvetica, sans-serif;
+    
     color: #333333;
 }
 
